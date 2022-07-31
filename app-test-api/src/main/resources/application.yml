@@ -1,0 +1,24 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /v1.0/
+spring:
+  application:
+    name: app-tes-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: admin
+    url: jdbc:mysql://localhost:3306/transporters_inc?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false
+    username: root
+api:
+  database:
+    sp:
+      consultContainers: CALL getContainers()
+      insertStats: CALL insertStats(:containers_dispatched,:containers_not_dispatched,:budget_used,:var_containers)
+      consultStats: CALL getStats(:start_date,:end_date)
+  constants:
+    successful: El mejor KPI es transportar los contenedores {0}.
+    budget: El valor total de todos los costos de los contenedores debe ser mayor o igual que el presupuesto que se desea despachar.
+    repeated: Hay contenedores repetidos {0}.
+    dispatched: Existe contenedores ya despachados {0}.
+    errorExceptionService: Error al consumir el servicio api. Por favor comunicarse con el administrador.
