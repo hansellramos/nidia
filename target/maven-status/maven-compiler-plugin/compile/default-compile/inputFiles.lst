@@ -1,0 +1,13 @@
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/controllers/ApiController.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/dto/ResponseDTO.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/settings/SwaggerConfig.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/daos/StatsDAO.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/entities/Stats.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/settings/ConstantsDescription.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/utils/Validations.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/model/Container.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/settings/Database.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/utils/ConnectionManager.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/dto/RequestDTO.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/ApiApplication.java
+/Users/hansell/Documents/Personal/nidia/TEST/app-test-api/src/main/java/com/transportersInc/test/business/ControllerBusiness.java
